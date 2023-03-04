@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/client/node_modules
+/web3/node_modules
+/client/.pnp
+/web3/.pnp
+/client/.pnp.js
+/web3/.pnp.js
+
+
+# testing
+/client/coverage
+/web3/coverage
+/web3/coverage.json
+# next.js
+/client/.next/
+/web3/out/
+
+# production
+/client/build
+# misc
+.DS_Store
+/client/.DS_Store
+/client/*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+
+/client/.env*.local
+/web3/.env*.local
+/web3/.env
+
+# vercel
+/client/.vercel
+
+/web3/typechain
+/web3/typechain-types
+
+#Hardhat files
+/web3/cache
+/web3/artifacts
